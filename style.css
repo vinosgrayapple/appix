@@ -1,0 +1,47 @@
+@font-face {
+    font-family: MiriadPro; /* Имя шрифта */
+    src: url('fonts/Myriad Pro Regular.ttf'); /* Путь к файлу со шрифтом */
+   }
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(img/bg.png);
+	
+}
+.main {
+	width: 960px;
+	margin: 0 auto;
+	/*border: 1px solid;*/
+}
+header {
+	height: 310px;
+	position: relative;
+}
+header p {
+	position: absolute;
+	left: 230px;
+	top: 142px;
+	font-family: MiriadPro, sans-serif;
+	color: #939393;
+	font-size: 15px;
+}
+.logo {
+	position: absolute;
+	top: 127px;
+	background-image: url(img/AppixLogo.png);
+	height: 41px;
+	width: 185px;
+}
+.social {
+	position: absolute;
+	right: 32px;
+	top: 90px;
+}
+.social a {
+	color: #878787;
+	font-size: 12px;
+	
+}
