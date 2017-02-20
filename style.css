@@ -1,6 +1,6 @@
 @font-face {
-    font-family: MiriadPro; /* Имя шрифта */
-    src: url('fonts/Myriad Pro Regular.ttf'); /* Путь к файлу со шрифтом */
+    font-family: MiriadPro;
+    src: url('fonts/Myriad Pro Regular.ttf');
    }
 * {
 	margin: 0;
@@ -12,7 +12,8 @@ body {
 	
 }
 .main {
-	width: 960px;
+	max-width: 1200px;
+	min-width: 980px;
 	margin: 0 auto;
 	/*border: 1px solid;*/
 }
